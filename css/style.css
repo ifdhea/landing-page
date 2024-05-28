@@ -1,0 +1,99 @@
+body {
+    font-family: Poppins;
+}
+
+div {
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(104, 104, 196);
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    color: #060225;
+}
+
+.nav {
+    background-color: #210149;
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    text-align: center;   
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.nav ul li a:hover {
+    color: rgb(100, 153, 252);
+}
+.main {
+    display: flex;
+    background-color: antiquewhite;
+}
+.content {
+    width: 100%;
+    margin: 0;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.content .artikel {
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 7px;
+    width: 100%;
+    background-color: rgb(237, 237, 255);
+    border-radius: 10px;
+    line-height: 1.6em;
+    border: 2px solid rgb(13, 4, 41);
+}
+.content .artikel .read{
+    color: #060225;
+    border: 1px solid rgb(13, 11, 19);
+    border-radius: 5px;
+    margin: 0;
+    padding: 5px;
+    width: 150px;
+}
+.content .artikel .read a{
+    color: #060225;
+}                                                   
+
+.sidebar {
+    background-color: antiquewhite;
+    margin: 0;
+    border : 1px solid rgb(155, 119, 255);
+    width: 40%;
+    padding: 20px;
+}
+
+.sidebar h4{
+    text-align: left;
+}
+
+.sidebar ul li{
+    list-style: none;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    text-align: left;
+    color: #060225;
+}
+
+.footer {
+    background-color: rgb(112, 66, 240);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
